@@ -7,7 +7,7 @@ function style() {
     // 2. pass that file through sass compiler
     .pipe(sass())
     // 3. where do I save the compiled css?
-    .pipe(gulp.dest('./css'))
+    .pipe(gulp.dest('./dist/css'))
 }
 
 exports.style = style;
