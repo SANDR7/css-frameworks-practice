@@ -21246,6 +21246,10 @@ video {
   background-color: rgba(203, 213, 224, var(--bg-opacity))
 }
 
+.marginBottom {
+  margin-bottom: 2rem
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
