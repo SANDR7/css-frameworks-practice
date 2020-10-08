@@ -9,7 +9,9 @@
     "bootstrap-icons": "^1.0.0",
     "gh-pages": "^3.1.0",
     "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.0",
     "sass": "^1.26.11",
+    "tailwindcss": "^1.8.10",
     "yargs-parser": "^20.2.0"
   },
   "devDependencies": {
@@ -17,7 +19,8 @@
     "gulp-sass": "^4.1.0"
   },
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "build:tailwind": "tailwind build src/tailwindcss.css -o dist/css/tailwindcss.css"
   },
   "repository": {
     "type": "git",
