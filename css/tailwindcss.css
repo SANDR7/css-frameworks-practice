@@ -21234,6 +21234,18 @@ video {
           animation: bounce 1s infinite;
 }
 
+.header {
+  font-size: 2.25rem
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 0.25rem;
+  --bg-opacity: 1;
+  background-color: #cbd5e0;
+  background-color: rgba(203, 213, 224, var(--bg-opacity))
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
