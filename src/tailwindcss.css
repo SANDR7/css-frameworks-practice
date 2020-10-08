@@ -11,3 +11,6 @@
 .card {
     @apply p-4 rounded bg-gray-400
 }
+.marginBottom {
+    @apply mb-8
+}
