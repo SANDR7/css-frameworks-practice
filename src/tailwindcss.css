@@ -3,3 +3,11 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.header {
+    @apply text-4xl
+}
+
+.card {
+    @apply p-4 rounded bg-gray-400
+}
