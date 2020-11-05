@@ -246,7 +246,12 @@ textarea {
   background-color: #2C3840;
   
 }
-
+.footer {
+  width: 100%;
+  background-color: #F9FBFC;
+  border: 1px solid #888;
+  padding: 1.5em 1em;
+}
 .is-visible {
   display: block !important; }
 
