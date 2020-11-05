@@ -34,7 +34,13 @@ pre {
   font-size: 1em; }
 
 a {
-  background-color: transparent; }
+  background-color: transparent; 
+  color: #cacaca !important;
+  }
+a:hover, a:focus {
+  color: #acacac !important;
+}
+
 
 abbr[title] {
   border-bottom: none;
@@ -233,6 +239,13 @@ optgroup,
 select,
 textarea {
   font-family: inherit; }
+
+.nav {
+  display: grid;
+  padding: 1em;
+  background-color: #2C3840;
+  
+}
 
 .is-visible {
   display: block !important; }
@@ -666,12 +679,12 @@ h6, .h6 {
 
 a {
   line-height: inherit;
-  color: #1779ba;
+  color: #cacaca;
   text-decoration: none;
   cursor: pointer; }
 
 a:hover, a:focus {
-  color: #1468a0; }
+  color: #8f8f8f; }
 
 a img {
   border: 0; }
@@ -4320,11 +4333,11 @@ a.thumbnail image {
   text-align: center; }
 
 .menu .is-active > a {
-  background: #1779ba;
+  background: #c7c7c7;
   color: #fefefe; }
 
 .menu .active > a {
-  background: #1779ba;
+  background: #949494;
   color: #fefefe; }
 
 .menu.align-left {
